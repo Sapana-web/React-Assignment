@@ -62,7 +62,7 @@ class TasksManage extends Component {
     }
 
     render() {
-        const modalTitle = this.state.id ? 'Add Task' : 'Edit Task'
+        const modalTitle = this.state.id ? 'Edit Task' : 'Add Task'
         const { modalId } = this.props
         return (
             <div className="modal fade" id={modalId} tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
